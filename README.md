@@ -2,6 +2,8 @@
 
 My Pokédex is a simple Javascript website repository developed by me during the Web Development course at IFSP. The site aims to display several Pokémons requested from the Pokémon API repository (PokeAPI).
 
+- Acess this link to open the site: [My Pokedex](https://mathensousaa.github.io/mypokedex/)
+
 ## **Features**
 
 - Search Pokémon by number
