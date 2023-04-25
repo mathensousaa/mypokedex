@@ -13,6 +13,7 @@ for (let count = 0; count < pokemonQuantity; count++) {
     pokemon.classList.add('pokemon');
 
     pokemonImage.src = `${pokemonSRC}${count+1}.png`;
+    pokemonImage.classList.add('pokemonImage');
 
     pokemonResume.classList.add('pokemonDesc')
 
@@ -33,7 +34,7 @@ const btn = document.querySelector('.btnSearch');
 const input = document.querySelector('.searchInput');
 
 toSearch = () => {
-    const pokemonImages = document.querySelectorAll('img');
+    const pokemonImages = document.querySelectorAll('.pokemonImage');
     let requestedSRC = `${pokemonSRC}${input.value}.png`;
     
     pokemonImages.forEach((pokemonImage) => {
