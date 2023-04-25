@@ -19,7 +19,7 @@ My Pokédex is a simple Javascript website repository developed by me during the
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/my-pokedex.git
+git clone https://github.com/mathensousaa/mypokedex.git
 ```
 
 1. Open **`index.html`** in your web browser
